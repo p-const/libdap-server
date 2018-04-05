@@ -29,7 +29,7 @@
 
 #include "dap_client_remote.h"
 
-typedef enum dap_server_type {DAP_SERVER_TCP} dap_server_type_t;
+typedef enum dap_server_type {DAP_SERVER_TCP, DAP_SERVER_KELVIN} dap_server_type_t;
 
 struct dap_server;
 
